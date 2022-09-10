@@ -4,8 +4,20 @@ body{
     padding: 0%;
 }
 
+.col-6 a:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+}
+
 .Ponto{
     list-style-type: none;
+}
+
+.Navegação button{
+    border: 1px solid #556699;
+    border-radius: 1000px;
+    padding: 5px 25px;
+    display: flex;
+    text-align: center;
 }
 
 .Navegação a{
@@ -13,30 +25,49 @@ body{
     padding:10px;
     margin: 0px;
     text-decoration: none;
+    list-style-type: none;
 }
 
 .Navegação li:hover{
     background-color: rgba(15, 25, 20, 0.1);
-    border-radius: 30%;
-    text-decoration: underline;
+    border-radius: 160px 0px 0px 160px;
 }
 
-.Publicação a{
-    color: rgb(15, 20, 25);
+.Informações a{
+    text-decoration: none;
+    color: rgb(83, 100, 113);
 }
 
-.Publicação a:hover{
-    background-color: rgba(15, 25, 20, 0.1);
-    border-radius: 30%;
+.Informações button{
+    border: 1px solid #556699;
+    border-radius: 1000px;
+    padding: 5px 25px;
+    display: inline-flex;
+    text-align: center;
+    margin-left: 50%;
 }
 
-li > span{
+.Estatistica span{
     color:rgb(15, 20, 25);
     font-weight: bold;
 }
 
+.Publicação a{
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+    padding: 5px 25px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Publicação a:hover{
+    background-color: rgba(15, 25, 20, 0.1);
+}
+
 .Estatistica a{
     color: rgb(83, 100, 113);
+    text-decoration: none;
 }
 
 .Estatistica a:hover{
@@ -45,6 +76,10 @@ li > span{
 
 .Ação a{
     color: rgb(83, 100, 113);
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 25px;
+    margin: 10px;
 }
 
 .Ação a[href^="#"]:hover{
@@ -62,14 +97,15 @@ li > span{
     color: rgba(249, 24, 128, 1);
 }
 
-h4, h3 > span{
+h6, h7 > span{
     color: rgb(83, 100, 113);
 }
 
-.Informações a{
-    color: rgb(83, 100, 113);
+.Busca{
+    background-color: rgb(239, 243, 244);
 }
 
-.Publicação p:hover{
-    background-color: rgba(0, 0, 0, 0.03);
+.Sugestão{
+    background-color: rgb(239, 243, 244);
+    padding: 5px 10px;
 }
