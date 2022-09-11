@@ -22,10 +22,9 @@ body{
 
 .Navegação a{
     color: rgb(15, 20, 25);
-    padding:10px;
-    margin: 0px;
     text-decoration: none;
-    list-style-type: none;
+    padding: 5px;
+    
 }
 
 .Navegação li:hover{
@@ -55,14 +54,13 @@ body{
 .Publicação a{
     color: rgb(15, 20, 25);
     text-decoration: none;
-    padding: 5px 25px;
+    padding: 5px 5%;
     display: inline-flex;
-    text-align: center;
-    justify-content: center;
 }
 
 .Publicação a:hover{
     background-color: rgba(15, 25, 20, 0.1);
+    color: rgb(15, 20, 25);
 }
 
 .Estatistica a{
@@ -107,5 +105,51 @@ h6, h7 > span{
 
 .Sugestão{
     background-color: rgb(239, 243, 244);
-    padding: 5px 10px;
+    padding: 5px 0px;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.Sugestão img{
+    padding: 5px;
+}
+
+@media(max-width: 768px){
+
+    .Navegação{
+        font-size: 70%;
+    }
+
+    .Navegação li{
+        display: flex;
+    }
+
+    .Navegação img{
+        width: 18px;
+        height: 18px;
+    }
+
+    .Navegação button{
+        font-size: 0%;
+    }
+
+    .Informações button{
+        display:flex;
+        margin-bottom:30px;
+    }
+}
+@media(max-width: 425px){
+    .Navegação li{
+        display: flex;
+        font-size: 0%;
+    }
+
+    .Busca, .Sugestão{
+        display: none;
+    }
+
+    .col-6{
+        box-sizing: border-box;
+        flex-direction: column;
+    }
 }
