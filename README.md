@@ -7,15 +7,15 @@ Multiverso Criativo - Será um site para mostrar as confecções(bottons, caneca
 
 🧑‍💻 Membros da equipe
 
-Matricula - 470367
-Nome - Iury de Oliveira Queiroz
-Curso - Sistemas de Informação
+ - Matricula - 470367
+ - Nome - Iury de Oliveira Queiroz
+ - Curso - Sistemas de Informação
 
 🧑‍🤝‍🧑 Papéis ou tipos de usuário da aplicação
 
-Usuário não Logado - Este vai apenas poder visualizar o catalogo de itens, ele não vai poder adicionar os itens no carrinho até que o mesmo entre no sistema.
-Usuário Logado - Este ele vai poder visualizar o catalogo dos itens e vai poder adicionar no carrinho para posteriormente fazer a realização do pedido.
-Administrador - Será aquele que poderá alterar o catalogo, sendo adicionando ou removendo certos itens e indicando os tamanhos corretos além do preço por unidade e adicionando discontos com grandes volumes na compra. 
+ - Usuário não Logado - Este vai apenas poder visualizar o catalogo de itens, ele não vai poder adicionar os itens no carrinho até que o mesmo entre no sistema.
+ - Usuário Logado - Este ele vai poder visualizar o catalogo dos itens e vai poder adicionar no carrinho para posteriormente fazer a realização do pedido.
+ - Administrador - Será aquele que poderá alterar o catalogo, sendo adicionando ou removendo certos itens e indicando os tamanhos corretos além do preço por unidade e adicionando discontos com grandes volumes na compra. 
 
 🗓️ Entidades ou tabelas do sistema
 
@@ -23,15 +23,17 @@ Administrador, Usuário Logado e Usuário não Logado.
 
 🚩 Principais funcionalidades da aplicação
 
-- Funcionalidades acesséveis a todos -
+- Funcionalidades acesséveis a todos
 
-Visualização do catálogo - O site apresentará um catalogo que mostrará os itens que estamos produzindo bem como seu preço e tamanhos.
-Comentarios e avaliação do produto - Apartir dos itens terá uma sessão de comentarios e uma forma de avaliar os produtos mostrado no catalogo.
+  Visualização do catálogo - O site apresentará um catalogo que mostrará os itens que estamos produzindo bem como seu preço e tamanhos.
+  
+  Comentarios e avaliação do produto - Apartir dos itens terá uma sessão de comentarios e uma forma de avaliar os produtos mostrado no catalogo.
 
-- Funcionalidades restritas - 
+- Funcionalidades restritas
 
-Adicionar ao carrinho - O usuário logado poderá adicionar no carrinho o item e posteriormente poderá enviar um pedido para a confecção do mesmo.
-Alteração no catalogo - O administrador poderá realizar alterações no catalogo como descrito anteriormente. 
+  Adicionar ao carrinho - O usuário logado poderá adicionar no carrinho o item e posteriormente poderá enviar um pedido para a confecção do mesmo.
+  
+  Alteração no catalogo - O administrador poderá realizar alterações no catalogo como descrito anteriormente. 
 
 ⚠️⚠️⚠️ As informações a seguir devem ser enviadas juntamente com a versão final do projeto. ⚠️⚠️⚠️
 
